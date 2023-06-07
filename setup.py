@@ -36,7 +36,7 @@ def get_version():
 
 
 def get_name():
-    name = "pytorchvideo"
+    name = "peachdb-pytorchvideo"
     if os.getenv("BUILD_NIGHTLY", "0") == "1":
         name += "-nightly"
     return name
